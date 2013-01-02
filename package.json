@@ -1,0 +1,11 @@
+{
+  "name": "BDPVF",
+  "subdomain": "bigdatapartnership",
+  "scripts": {
+    "start": "index.html"
+  },
+  "version": "0.0.1-1",
+  "engines": {
+    "node": "0.8.1"
+  }
+}

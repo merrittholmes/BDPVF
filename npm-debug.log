@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/var/lib/openshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data//bin/node-openshift-v8',
+1 verbose cli   '/var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'miso.Dataset' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.9
+4 verbose node symlink /var/lib/openshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data//bin/node-openshift-v8
+5 verbose read json /var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/365215/package.json
+6 warn package.json BDPVF@0.0.1 No README.md file found!
+7 verbose read json /var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/365215/node_modules/miso.dataset/package.json
+8 verbose from cache /var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/365215/package.json
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'miso.Dataset', null ]
+11 silly cache add name=undefined spec="miso.Dataset" args=["miso.Dataset",null]
+12 verbose parsed url { pathname: 'miso.Dataset',
+12 verbose parsed url   path: 'miso.Dataset',
+12 verbose parsed url   href: 'miso.Dataset' }
+13 silly lockFile afff8905-miso-Dataset miso.Dataset
+14 verbose lock miso.Dataset /var/lib/openshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/.npm/afff8905-miso-Dataset.lock
+15 silly lockFile afff8905-miso-Dataset miso.Dataset
+16 verbose addNamed [ 'miso.Dataset', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile ce19fcd9-miso-Dataset miso.Dataset@
+19 verbose lock miso.Dataset@ /var/lib/openshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/.npm/ce19fcd9-miso-Dataset.lock
+20 silly addNameRange { name: 'miso.Dataset', range: '', hasData: false }
+21 verbose url raw miso.Dataset
+22 verbose url resolving [ 'https://registry.npmjs.org/', './miso.Dataset' ]
+23 verbose url resolved https://registry.npmjs.org/miso.Dataset
+24 info trying registry request attempt 1 at 16:50:16
+25 http GET https://registry.npmjs.org/miso.Dataset
+26 http 404 https://registry.npmjs.org/miso.Dataset
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+27 silly registry.get     date: 'Sat, 29 Dec 2012 21:49:07 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'cache-control': 'must-revalidate' } ]
+28 silly lockFile ce19fcd9-miso-Dataset miso.Dataset@
+29 error 404 'miso.Dataset' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 2.6.32-279.19.1.el6.x86_64
+31 error command "/var/lib/openshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data//bin/node-openshift-v8" "/var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/lib/node_modules/npm/bin/npm-cli.js" "install" "miso.Dataset"
+32 error cwd /var/lib/stickshift/5ddc9e2f362649b9988fccacda5341cc/app-root/data/365215
+33 error node -v v0.8.9
+34 error npm -v 1.1.62
+35 error code E404
+36 verbose exit [ 1, true ]
